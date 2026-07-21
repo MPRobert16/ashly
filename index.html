@@ -606,31 +606,6 @@ opacity:1;
 
 <script>
 
-// ❤️ Corazones flotando
-
-function crearCorazon(){
-
-    const h=document.createElement("div");
-
-    h.className="heart";
-
-    h.innerHTML="❤️";
-
-    h.style.left=Math.random()*100+"vw";
-    h.style.fontSize=(18+Math.random()*25)+"px";
-    h.style.animationDuration=(5+Math.random()*4)+"s";
-
-    document.body.appendChild(h);
-
-    setTimeout(()=>{
-        h.remove();
-    },9000);
-
-}
-
-setInterval(crearCorazon,500);
-
-
 // 🎁 Botón sorpresa
 
 function sorpresa(){
