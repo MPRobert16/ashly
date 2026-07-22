@@ -496,6 +496,30 @@ opacity:1;
 
 }
 
+.adorno{
+    font-size:42px;
+    animation:celebrar 2s ease-in-out infinite;
+}
+
+@keyframes celebrar{
+
+    0%,100%{
+        transform:rotate(0deg) scale(1);
+    }
+
+    25%{
+        transform:rotate(-15deg) scale(1.15);
+    }
+
+    50%{
+        transform:rotate(15deg) scale(1.2);
+    }
+
+    75%{
+        transform:rotate(-10deg) scale(1.15);
+    }
+
+}
 </style>
 
 </head>
@@ -505,19 +529,18 @@ opacity:1;
 <div class="container">
 
     <div class="card">
-
+         
         <div class="titulo">
 
-           
+           <span class="mariquita izquierda">🎊</span>
 
-            <div class="textoTitulo">
-                <h1>Happy Birthday</h1>
-            </div>
+           <div class="textoTitulo">
+              <h1>Happy Birthday</h1>
+           </div>
 
-            
+           <span class="mariquita derecha">🎊</span>
 
-        </div>
-
+       </div>
         <div class="sub">
             Una sorpresa para ti 
         </div>
